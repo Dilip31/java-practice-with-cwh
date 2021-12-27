@@ -11,32 +11,32 @@ class Project {
         Random dice = new Random();
 
         Scanner sc  = new Scanner(System.in);
-        int numver;
+        int number;
 
         for (int i = 0; i < 5; i++)
         {
-            numver= dice.nextInt(3);
+            number= dice.nextInt(3);
             System.out.println("enter 1 for rock ,2 for paper ,3 for sizer ");
             int a= sc.nextInt();
-            if (numver==a)
+            if (number==a)
             {
                 System.out.println("arre mach is draw !");
-            } if (numver==1 && a==2)
+            } if (number==1 && a==2)
         {
             System.out.println("you win !");
-        }if (numver==1 && a==3)
+        }if (number==1 && a==3)
         {
             System.out.println("you losss !");
-        }if (numver==2 && a==1)
+        }if (number==2 && a==1)
         {
             System.out.println("you losss !");
-        }if (numver==2 && a==3)
+        }if (number==2 && a==3)
         {
             System.out.println("you won !");
-        }if (numver==3 && a==1)
+        }if (number==3 && a==1)
         {
             System.out.println("you won !");
-        }if (numver==3 && a==2)
+        }if (number==3 && a==2)
         {
             System.out.println("you loss !");
         }
